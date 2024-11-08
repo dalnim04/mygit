@@ -1,4 +1,7 @@
-
+<?php
+// 必要に応じて他の設定を記述
+header('X-Content-Type-Options: nosniff');
+?>
 
 <!DOCTYPE html>
 <html lang="ja">
