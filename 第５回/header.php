@@ -18,7 +18,7 @@
         
 
         <div class='nav'>
-        <div class="site"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+        <div class="site"><a href="index.php#slider"><img src="img/logo.png" alt="Logo"></a></div>
             <div class="nav2">
                 <div><a href="index.php#schedules">スケジュール</a></div>
                 <div><a href="index.php#accesses">アクセス</a></div>

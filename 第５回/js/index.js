@@ -134,6 +134,25 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+  if (window.location.hash === '#slider') {
+      const headerHeight = $('header').outerHeight(); // ヘッダーの高さを取得
+      const sliderPosition = $('#slider').offset().top; // スライドショーの位置を取得
+
+      // スムーズスクロール
+      $('html, body').animate({
+          scrollTop: sliderPosition - headerHeight // ヘッダーの高さ分だけ位置を調整
+      }, 600, 'swing'); // スクロール速度とイージングを設定
+  }
+});
+
+// ロゴをクリックした時のスクロール処理
+$('.site a').on('click', function(event) {
+  event.preventDefault(); // デフォルトのリンク動作を無効にする
+
+  window.location.href = 'index.php#slider'; // ページ移動をトリガーし、index.phpの#sliderに移動
+});
+
    
 
   

@@ -17,8 +17,8 @@
 <body>
 
 <?php include 'header.php'; ?>
-<div class="swiper sample-slider">
-        <div class="swiper-wrapper">
+<div class="swiper sample-slider" >
+        <div class="swiper-wrapper" id="slider">
             <div class="swiper-slide"><img src="img/slide_1.jpg" alt="1"></div>
             <div class="swiper-slide"><img src="img/slide_2.jpg" alt="2"></div>
             <div class="swiper-slide"><img src="img/slide_3.jpg" alt="3"></div>
