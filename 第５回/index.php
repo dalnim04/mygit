@@ -15,6 +15,8 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php include 'header.php'; ?>
 <div class="swiper sample-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="img/slide_1.jpg" alt="1"></div>
@@ -27,7 +29,7 @@
     </div>
     
 
-<?php include 'header.php'; ?>
+
 
 
    

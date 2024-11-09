@@ -133,20 +133,7 @@ $(document).ready(function() {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  function adjustSliderMargin() {
-      const header = document.querySelector('header');
-      const slider = document.querySelector('.sample-slider');
-      const headerHeight = header.offsetHeight;
-      slider.style.marginTop = headerHeight + 'px';
-  }
 
-  // ページ読み込み時に一度実行
-  adjustSliderMargin();
-
-  // ウィンドウリサイズ時にも再調整
-  window.addEventListener('resize', adjustSliderMargin);
-});
    
 
   

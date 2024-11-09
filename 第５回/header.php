@@ -1,19 +1,6 @@
-<?php
-// 必要に応じて他の設定を記述
-header('X-Content-Type-Options: nosniff');
-?>
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
-    
-    <title>Document</title>
-</head>
-<body>
+
     <header>
         
         <div class="hamberger-wrap">
@@ -39,5 +26,3 @@ header('X-Content-Type-Options: nosniff');
             </div>
         </div>
     </header>
-</body>
-</html>
