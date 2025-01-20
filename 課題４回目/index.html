@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+<head>    
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8"/>
+  <meta id="viewport" content="width=device-width" name="viewport"/>
+  <title></title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrap">
+    <header class="p-header"><a class="p-header_logo" href="./"><img src="./images/logo_white.svg" alt=""/></a>
+      <div class="p-header_nav"> <a class="p-header_item" href="#room">お部屋</a><a class="p-header_item" href="#plan">プラン</a><a class="p-header_item" href="#season">四季</a><a class="p-header_item" href="#access">アクセス</a><a class="p-header_item yoyaku" href="#reservation">予約</a>
+        <button class="p-spNav_open"> <span></span><span></span><span></span>
+          <p>menu</p>
+        </button>
+      </div>
+    </header>
+    <nav class="p-spNav">
+      <div class="p-spNav_inner">
+        <div class="p-spNav_top">
+          <div class="p-spNav_logo"><img src="./images/logo_white.svg" alt=""/></div>
+          <button class="p-spNav_close"><span></span><span></span><span></span>
+            <p>menu</p>
+          </button>
+        </div>
+        <div class="p-spNav_nav"> <a class="is-active" href="#room">お部屋 </a><a href="#plan">プラン </a><a href="season">四季</a><a href="#access">アクセス </a></div>
+      </div>
+    </nav>
+    <div id="main">
+      <section class="p-mv">
+        <div class="p-mv_img">
+          <picture>
+            <source srcset="./images/mv_sp.webp" media="(max-width: 768px)"/><img src="./images/mv.webp" alt=""/>
+          </picture>
+        </div>
+        <div class="p-mv_inner">
+          <div class="p-mv_titleWrap">
+            <p class="p-mv_title font-honokamincho">大自然と調和する、<br class="sp">極上の癒し。</p>
+            <p class="p-mv_subTitle font-honokamincho">大分の自然環境と共に、<br>身も心も癒やされる<br class="sp">至福のひとときを提供します。</p>
+          </div>
+        </div>
+      </section>
+      <section class="p-about" id="about">
+        <div class="p-about_inner">
+          <div class="p-about_col"> 
+            <div class="p-about_colL"><img src="./images/logo.svg" alt=""/>
+              <p>自然美に囲まれた楽園で、<br>贅沢な癒しのひとときを<br>お過ごしください。</p>
+            </div>
+            <div class="p-about_colR"><img class="img02" src="./images/img_photo01.webp" alt=""/><img class="img01" src="./images/img_photo02.webp" alt=""/></div>
+          </div>
+        </div>
+      </section>
+      <section class="p-room" id="room">
+        <div class="p-room_inner"> 
+          <div class="p-room_icon"> <img src="./images/img_animation.svg" alt=""/></div>
+          <div class="p-room_title">お部屋<span>room</span></div>
+          <div class="p-room_text">「楽園雅苑」の豪華なお部屋は、大分県自然の美しさと格式の高いサービスが調和した完璧な空間を提供します。桜花の調べが響くプレミアスィート、静寂の庭園に囲まれたデラックスルーム、そして自然のぬくもりを感じるスタンダードルーム。どの部屋も極上の癒しとくつろぎがお待ちしております。贅沢な温泉体験と非日常のくつろぎをお楽しみください。</div>
+          <div class="p-room_tabList">
+            <button class="p-room_tab is-active">スタンダードルーム<br>- 自然のぬくもり -</button>
+            <button class="p-room_tab">デラックスルーム<br>- 静寂の庭園 -</button>
+            <button class="p-room_tab">プレミアスィート<br>- 桜花の調べ -</button>
+          </div>
+          <div class="p-room_contentList">
+            <div class="p-room_content is-visible">
+              <picture>
+                <source srcset="./images/img_room01_sp.webp" media="(max-width: 768px)"/><img class="p-room_img" src="./images/img_room01.webp" alt=""/>
+              </picture>
+              <p class="p-room_heading">自然のぬくもり</p>
+              <p class="p-room_desc">「自然のぬくもり」スタンダードルームは、自然との共感を感じるお部屋です。山の景色を楽しむことができ、ナチュラルリトリートプランには朝食が含まれています。心地よいぬくもりとくつろぎのひとときを提供します。</p>
+            </div>
+            <div class="p-room_content">
+              <picture>
+                <source srcset="./images/img_room02_sp.webp" media="(max-width: 768px)"/><img class="p-room_img" src="./images/img_room02.webp" alt=""/>
+              </picture>
+              <p class="p-room_heading">静寂の庭園</p>
+              <p class="p-room_desc">「静寂の庭園」デラックスルームは、静寂と美しさに包まれた部屋です。個別の温泉ビューバルコニーからは、美しい庭園と温泉の景色が広がります。ロマンティックゲットアウェイプランで、特別なひとときを過ごしましょう。</p>
+            </div>
+            <div class="p-room_content">
+              <picture>
+                <source srcset="./images/img_room03_sp.webp" media="(max-width: 768px)"/><img class="p-room_img" src="./images/img_room03.webp" alt=""/>
+              </picture>
+              <p class="p-room_heading">桜花の調べ</p>
+              <p class="p-room_desc">「桜花の調べ」プレミアスィートは、最高級のラグジュアリーを追求した特別なお部屋です。広々とした空間に、温泉露天風呂が設けられ、そこからは四季折々の美しい景色を楽しむことができます。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-reservation" id="reservation">
+        <div class="p-reservation_inner"> 
+          <div class="p-reservation_title">ご予約<span>reservation</span></div>
+          <div class="p-reservation_text">「楽園雅苑 - 桜庭温泉の隠れ家 -」へのご予約、心よりお待ちしております。お手数をおかけいたしますが、以下のフォームに必要事項をご記入の上、ご送信ください。</div>
+          <form class="p-reservation_form" action="./thanks.html" novalidate>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">お名前<span>＊</span></p>
+              <input class="p-reservation_input validation" type="text" name="name">
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">メールアドレス<span>＊</span></p>
+              <input class="p-reservation_input validation" type="email" name="email">
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">電話番号<span>＊</span></p>
+              <input class="p-reservation_input validation" type="tel" name="tel">
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">ご住所<span>＊</span></p>
+              <div class="p-reservation_nest">
+                <div class="form_flex">
+                  <p class="p-reservation_item">郵便番号</p>
+                  <input class="p-reservation_input nest_input validation" type="text" name="text">
+                </div>
+                <div class="form_flex">
+                  <p class="p-reservation_item">都道府県</p>
+                  <input class="p-reservation_input nest_input validation" type="text" name="postal">
+                </div>
+                <div class="form_flex">
+                  <p class="p-reservation_item">市区町村</p>
+                  <input class="p-reservation_input nest_input validation" type="text" name="municipalities">
+                </div>
+                <div class="form_flex">
+                  <p class="p-reservation_item item_area">町域・番地<br><span>・</span>建物名</p>
+                  <input class="p-reservation_input nest_input validation" type="text" name="area">
+                </div>
+              </div>
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">チェックイン日<span>＊</span></p>
+              <p class="p-reservation_input date_select">選択してください</p>
+              <input class="p-reservation_input validation" type="date" name="check_in">
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">チェックアウト日<span>＊</span></p>
+              <p class="p-reservation_input date_select">選択してください</p>
+              <input class="p-reservation_input validation" type="date" name="check_out">
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">ご希望の宿泊プラン<span>＊</span></p>
+              <span class="option_select"></span>
+              <select class="p-reservation_input p-reservation_select validation" name="plan">
+                <option value="" hidden>選択してください</option>
+                <option value="スタンダード">スタンダード</option>
+                <option value="デラックス">デラックス</option>
+                <option value="プレミアム">プレミアム</option>
+              </select>
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">大人の人数<span>＊</span></p>
+              <span class="option_select"></span>
+              <select class="p-reservation_input p-reservation_select validation" name="adult">
+                <option value="" hidden>選択してください</option>
+                <option value="0">0</option>
+                <option value="1人">1</option>
+                <option value="2人">2</option>
+                <option value="3人">3</option>
+                <option value="4人">4</option>
+                <option value="5人">5</option>
+              </select>
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item item_child">お子様の人数<span>＊</span><br><small>(12歳未満)</small></p>
+              <span class="option_select"></span>
+              <select class="p-reservation_input p-reservation_select validation" name="child">
+                <option value="" hidden>選択してください</option>
+                <option value="0">0</option>
+                <option value="1人">1</option>
+                <option value="2人">2</option>
+                <option value="3人">3</option>
+                <option value="4人">4</option>
+                <option value="5人">5</option>
+              </select>
+            </div>
+            <div class="p-reservation_content form_flex">
+              <p class="p-reservation_item">特別リクエスト</p>
+              <textarea class="p-reservation_input p-reservation_textarea" name="request"></textarea>
+            </div>
+            <p class="p-reservation_message">予約を確認するため、お客様の連絡先情報をご提供いただきます。ご予約に関する詳細情報や特別なリクエストがございましたら、お知らせください。心よりお待ちしております。</p>
+            <input class="p-reservation_submit" type="submit" value="送信する">
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const open = document.querySelector('.p-spNav_open');
+      const nav = document.querySelector('.p-spNav');
+      const close = document.querySelector('.p-spNav_close');
+      if (nav && open && close) {
+        open.addEventListener('click', function () {
+          if (!nav.classList.contains('is-active')) {
+            nav.classList.add('is-active');
+          }
+        });
+        close.addEventListener('click', function () {
+          if (nav.classList.contains('is-active')) {
+            nav.classList.remove('is-active');
+          }
+        });
+      }
+
+      const $tabs = $(".p-room_tab");
+      const $tabContents = $(".p-room_content");
+
+      $tabs.each(function (index) {
+        $(this).on('click', function () {
+          $tabs.removeClass("is-active");
+          $tabContents.removeClass("is-visible");
+
+          $(this).addClass("is-active");
+          $tabContents.eq(index).addClass("is-visible");
+        });
+      });
+
+      $('input[name="check_in"], input[name="check_out"]').on('change', function () {
+        const parent = $(this).closest('.p-reservation_content');
+        parent.find('.date_select').hide();
+      });
+
+      $('.p-reservation_select').on('change', function () {
+        const selectedValue = $(this).val();
+        if (selectedValue === "") {
+          $(this).css('color', '#B5B5B5');
+        } else {
+          $(this).css('color', '#383838');
+        }
+      });
+    });
+
+    $("form").submit(function (event) {
+      event.preventDefault();
+
+      var validation_flg = false;
+      var error_message = "";
+
+      var first_error_element = null;
+
+      $(".validation").each(function () {
+        if ($(this).val() === "" || $(this).val() === null) {
+          validation_flg = true;
+
+          $(this)
+            .css("border", "1px solid #CC0000")
+            .attr("placeholder", "入力必須です")
+            .addClass("error-placeholder");
+
+          if ($(this).attr("type") === "date") {
+            $(this).siblings(".date_select")
+              .css("color", "#CC0000")
+              .css("border", "1px solid #CC0000");
+          }
+
+          if ($(this).hasClass("p-reservation_select")) {
+            $(this)
+              .css("border", "1px solid #CC0000")
+              .css("color", "#CC0000");
+          }
+
+          if (!first_error_element) {
+            first_error_element = $(this);
+          }
+
+        } else if ($(this).attr("type") === "email") {
+          var email_pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+          if (!email_pattern.test($(this).val())) {
+            validation_flg = true;
+            $(this).css("border", "1px solid #CC0000");
+            error_message = "メールアドレスの形式が正しくありません";
+
+            if (!first_error_element) {
+              first_error_element = $(this);
+            }
+          } else {
+            $(this).css("border", "");
+          }
+
+        } else if ($(this).attr("type") === "tel") {
+          var tel_pattern = /^[0-9]{10,11}$/;
+          if (!tel_pattern.test($(this).val())) {
+            validation_flg = true;
+            $(this).css("border", "1px solid #CC0000");
+            error_message = "電話番号の形式が正しくありません";
+
+            if (!first_error_element) {
+              first_error_element = $(this);
+            }
+          } else {
+            $(this).css("border", "");
+          }
+
+        } else {
+          $(this)
+            .css("border", "")
+            .removeAttr("placeholder")
+            .removeClass("error-placeholder");
+
+          if ($(this).attr("type") === "date") {
+            $(this).siblings(".date_select")
+              .css("color", "")
+              .text("選択してください");
+          }
+
+          if ($(this).hasClass("p-reservation_select")) {
+            $(this)
+              .css("border", "")
+              .css("color", "#383838");
+          }
+        }
+      });
+
+      if (validation_flg) {
+        if (error_message === "") {
+          alert("未入力の項目があります。すべての必須項目を入力してください。");
+        } else {
+          alert(error_message);
+        }
+
+        $('html, body').animate({
+          scrollTop: first_error_element.offset().top - 20
+        }, 500);
+
+        return false;
+      }
+
+      window.location.href = "thanks.html";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+<head>    
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8"/>
+  <meta id="viewport" content="width=device-width" name="viewport"/>
+  <title></title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/thanks.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrap">
+    <header class="p-header"><a class="p-header_logo" href="./"><img src="./images/logo_white.svg" alt=""/></a>
+      <div class="p-header_nav"> <a class="p-header_item" href="./index.html#room">お部屋</a><a class="p-header_item" href="./index.html#plan">プラン</a><a class="p-header_item" href="./index.html#season">四季</a><a class="p-header_item" href="./index.html#access">アクセス</a><a class="p-header_item yoyaku" href="./index.html#reservation">予約</a>
+        <button class="p-spNav_open"> <span></span><span></span><span></span>
+          <p>menu</p>
+        </button>
+      </div>
+    </header>
+    <nav class="p-spNav">
+      <div class="p-spNav_inner">
+        <div class="p-spNav_top">
+          <div class="p-spNav_logo"><img src="./images/logo_white.svg" alt=""/></div>
+          <button class="p-spNav_close"><span></span><span></span><span></span>
+            <p>menu</p>
+          </button>
+        </div>
+        <div class="p-spNav_nav"> <a class="is-active" href="./index.html#room">お部屋 </a><a href="./index.html#plan">プラン </a><a href="./index.html#season">四季</a><a href="./index.html#access">アクセス </a></div>
+      </div>
+    </nav>
+    <div id="thanks-main">
+      <section>
+        <h1 class="thanks-h1">予約が完了しました</h1>
+        <p>「楽園雅苑 - 桜庭温泉の隠れ家 -」へのご予約、誠にありがとうございます。<br>お客様の予約が正常に受け付けられました。<br class="tahnks-br"><br class="tahnks-br">ご注意事項:<br class="tahnks-br">ご予約に関する特別なリクエストや変更がある場合、お手続きの前に当宿のスタッフがご連絡いたします。<br>予約内容の変更やキャンセルについては、ご予約確認メールに記載の手順に従ってご連絡いただけます。</p>
+        <p class="thanks-text">「楽園雅苑」でのご滞在が、素晴らしい思い出とくつろぎに満ちたひとときとなることを心より願っております。<br>何かご質問やご要望がある場合は、いつでもご連絡いただけます。<br class="tahnks-br">お客様にお会いできることを楽しみにしております。</p>
+      </section>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const open = document.querySelector('.p-spNav_open');
+    const nav = document.querySelector('.p-spNav');
+    const close = document.querySelector('.p-spNav_close');
+    if(nav && open && close){
+      open.addEventListener('click', function () {
+        if(!nav.classList.contains('is-active')){ 
+          nav.classList.add('is-active');
+        }
+      });
+      close.addEventListener('click', function () {
+        if(nav.classList.contains('is-active')){         
+          nav.classList.remove('is-active');
+        }
+      });
+    }
+  });
+  </script>
+</body>
+</html>
